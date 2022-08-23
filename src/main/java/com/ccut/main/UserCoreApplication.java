@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 @MapperScan("com.ccut.main.mapper")
 public class UserCoreApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(UserCoreApplication.class, args);
     }

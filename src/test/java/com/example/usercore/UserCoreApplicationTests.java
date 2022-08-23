@@ -1,17 +1,13 @@
 package com.example.usercore;
 
 import com.ccut.main.UserCoreApplication;
-import com.ccut.main.bean.actor;
-import com.ccut.main.service.impl.actorServiceImpl;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.util.DigestUtils;
-
 import java.nio.charset.StandardCharsets;
 import java.time.LocalDate;
-import java.util.List;
 
 @SpringBootTest(classes = {UserCoreApplication.class})
 class UserCoreApplicationTests {

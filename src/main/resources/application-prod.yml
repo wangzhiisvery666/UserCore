@@ -1,0 +1,13 @@
+#数据源连接信息
+spring:
+  datasource:
+    username: root
+    password: wz123
+    url: jdbc:mysql://101.133.235.114/java?characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false #设置时区
+
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    #session失效时间
+  session:
+    timeout: 86400
+  application:
+      name: "用户中心"
